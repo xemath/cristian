@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form_nuevo_usuario" onsubmit="validar_nombre_usuario(inputNombreUsuario.value)">
+        <label for="nombre">Ingrese su nombre</label>
+        <input type="text" placeholder="Escribe tu nombre" id="dato_nombre_usuario" name="nombre"><br>
+        <label for="edad">Edad</label>
+        <input type="text" placeholder="Escribe tu edad" id="dato_edad_usuario" name="edad"><br>
+        <label for="contrasena">Contraseña</label>
+        <input type="password" placeholder="Escribe tu contraseña" id="dato_contrasena" name="contrasena"><br>
+        <button type="submit" id="enviar_registro" value="Aceptar">Aceptar</button>
+    </form>
+
+    <script src="/validaciones.js"></script>
+</body>
+</html>
