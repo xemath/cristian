@@ -7,12 +7,12 @@ function validar_nombre_usuario(string){
     this.addEventListener('submit', (e)=>{ // puse la funcion en onsubmit en la etiqueta de la forma del html // el this, significa este elemento
         e.preventDefault(); //prevengo la accion por default cuando apreta el boton aceptar para que no se recargue la pagina
         if(patron.test(string)==false){
-            console.log("false")
+            
 
             return false;
         }
         else{
-            console.log("true")
+            
 
             return true;
         }        
